@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Solicitação de Credito">131858039763b110489d747e6253afad</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-09 17:35:25</sys_created_on>
+        <sys_id>8bda18c39763b110489d747e6253afc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Solicitação de Credito</sys_name>
+        <sys_package display_value="Banco Novo" source="x_1173448_banco_0">dae3100f9723b110489d747e6253afba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banco Novo">dae3100f9723b110489d747e6253afba</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_8bda18c39763b110489d747e6253afc2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-09 17:35:25</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Banco Novo">dae3100f9723b110489d747e6253afba</application>
+        <file_path/>
+        <instance_id>75ed3991db8bff400ae3ac44d4961901</instance_id>
+        <instance_name>dev90474</instance_name>
+        <name>sc_cat_item_catalog_8bda18c39763b110489d747e6253afc2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Solicitação de Credito">131858039763b110489d747e6253afad</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-09 17:35:25</sys_created_on><sys_id>8bda18c39763b110489d747e6253afc2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Solicitação de Credito</sys_name><sys_package display_value="Banco Novo" source="x_1173448_banco_0">dae3100f9723b110489d747e6253afba</sys_package><sys_policy/><sys_scope display_value="Banco Novo">dae3100f9723b110489d747e6253afba</sys_scope><sys_update_name>sc_cat_item_catalog_8bda18c39763b110489d747e6253afc2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-09 17:35:25</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1589008583</payload_hash>
+        <record_name>Service Catalog.Solicitação de Credito</record_name>
+        <reverted_from/>
+        <source>16e3100f9723b110489d747e6253afbd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-09 17:35:25</sys_created_on>
+        <sys_id>87da18c39763b110489d747e6253afc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cef4b17b10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-09 17:35:25</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>0fda18c3d463b110db6acaf3ad4ca2c4</update_guid>
+        <update_guid_history>0fda18c3d463b110db6acaf3ad4ca2c4:1589008583</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Solicitação de Credito">3eab54079763b110489d747e6253afba</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-09 17:38:57</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>35b91dabf1514f14a170a0fe99117810</sys_id>
+        <sys_metadata>8bda18c39763b110489d747e6253afc2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Solicitação de Credito</sys_name>
+        <sys_package display_value="Banco Novo" source="x_1173448_banco_0">dae3100f9723b110489d747e6253afba</sys_package>
+        <sys_parent display_value="Solicitação de Credito">131858039763b110489d747e6253afad</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Banco Novo">dae3100f9723b110489d747e6253afba</sys_scope>
+        <sys_scope_delete display_value="">030fa9ee08f64d3b81e2163fef3e0bb1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_8bda18c39763b110489d747e6253afc2</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_8bda18c39763b110489d747e6253afc2">87da18c39763b110489d747e6253afc5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-09 17:38:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

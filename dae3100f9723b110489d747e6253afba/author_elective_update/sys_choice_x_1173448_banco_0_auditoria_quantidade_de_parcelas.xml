@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="quantidade_de_parcelas" table="x_1173448_banco_0_auditoria" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>quantidade_de_parcelas</element>
+            <name>x_1173448_banco_0_auditoria</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-09 17:20:38</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>quantidade_de_parcelas</sys_name>
+            <sys_package display_value="Banco Novo" source="x_1173448_banco_0">dae3100f9723b110489d747e6253afba</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Banco Novo">dae3100f9723b110489d747e6253afba</sys_scope>
+            <sys_update_name>sys_choice_x_1173448_banco_0_auditoria_quantidade_de_parcelas</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-09 17:20:38</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>quantidade_de_parcelas</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3x</label>
+            <language>en</language>
+            <name>x_1173448_banco_0_auditoria</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-09 17:20:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea7710039763b110489d747e6253af06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-09 17:20:38</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>quantidade_de_parcelas</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>6x</label>
+            <language>en</language>
+            <name>x_1173448_banco_0_auditoria</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-09 17:20:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>667710039763b110489d747e6253af08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-09 17:20:38</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>quantidade_de_parcelas</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>9x</label>
+            <language>en</language>
+            <name>x_1173448_banco_0_auditoria</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-09 17:20:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e27710039763b110489d747e6253af09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-09 17:20:38</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>quantidade_de_parcelas</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>12x</label>
+            <language>en</language>
+            <name>x_1173448_banco_0_auditoria</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-09 17:20:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>627710039763b110489d747e6253af0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-09 17:20:38</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

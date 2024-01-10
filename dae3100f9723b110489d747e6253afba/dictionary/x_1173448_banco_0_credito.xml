@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6e84580f9723b110489d747e6253afa7" extends="task" label="Credito" max_length="40" name="x_1173448_banco_0_credito" type="collection">
+        <element choice="1" label="Agencia" max_length="40" name="agencia" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="São Benedito" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Boa Vista" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Primaveira" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Conta corrente" max_length="40" name="conta_corrente" type="string"/>
+        <element label="CPF" max_length="38" name="cpf" type="string"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Endereço" max_length="40" name="endereco" type="string"/>
+        <element label="Nome" max_length="32" name="nome" reference="sys_user" type="reference"/>
+        <element choice="1" label="Quantidade de Parcelas" max_length="40" name="quantidade_de_parcelas" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="3x" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="6x" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="9x" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="12x" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <element label="RG" max_length="40" name="rg" type="string"/>
+        <element choice="1" label="Sexo" max_length="40" name="sexo" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Masculino" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Feminino" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Telefone" max_length="40" name="telefone" type="string"/>
+        <element label="Valor do Crédito" max_length="40" name="valor_do_credito" type="integer"/>
+    </element>
+</database>

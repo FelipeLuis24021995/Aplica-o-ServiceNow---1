@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="54761c8f9723b110489d747e6253afd0" label="Auditoria" max_length="40" name="x_1173448_banco_0_auditoria" type="collection">
+        <element label="Nome" max_length="32" name="nome" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Quantidade de Parcelas" max_length="40" name="quantidade_de_parcelas" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="3x" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="6x" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="9x" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="12x" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <element label="Solicitação de Credito" max_length="32" name="solicitacao_de_credito" reference="x_1173448_banco_0_credito" type="reference"/>
+        <element label="Valor do Credito" max_length="40" name="valor_do_credito" type="integer"/>
+        <index name="index">
+            <element name="nome"/>
+        </index>
+        <index name="index2">
+            <element name="solicitacao_de_credito"/>
+        </index>
+    </element>
+</database>

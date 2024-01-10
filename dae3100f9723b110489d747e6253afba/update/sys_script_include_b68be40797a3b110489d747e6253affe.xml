@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1173448_banco_0.TarefaAula_6</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>TarefaAula_6</name>
+        <script><![CDATA[var TarefaAula_6 = Class.create();
+TarefaAula_6.prototype = {
+    initialize: function() {
+    },
+
+	atualizarAuditoria : function(Nome,Solicitacao,Valor,Parcelas){
+	
+		var atualizarParaAuditoria = new GlideRecord("x_1173448_banco_0_auditoria");
+		atualizarParaAuditoria.initialize();
+		atualizarParaAuditoria.nome = Nome;
+		atualizarParaAuditoria.solicitacao_de_credito = Solicitacao;
+		atualizarParaAuditoria.valor_do_credito = Valor;
+		atualizarParaAuditoria.quantidade_de_parcelas = Parcelas;
+		
+		atualizarParaAuditoria.insert();
+		
+		return true;
+		
+	},
+	
+    type: 'TarefaAula_6'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-09 18:59:15</sys_created_on>
+        <sys_id>b68be40797a3b110489d747e6253affe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TarefaAula_6</sys_name>
+        <sys_package display_value="Banco Novo" source="x_1173448_banco_0">dae3100f9723b110489d747e6253afba</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Banco Novo">dae3100f9723b110489d747e6253afba</sys_scope>
+        <sys_update_name>sys_script_include_b68be40797a3b110489d747e6253affe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-09 18:59:15</sys_updated_on>
+    </sys_script_include>
+</record_update>
