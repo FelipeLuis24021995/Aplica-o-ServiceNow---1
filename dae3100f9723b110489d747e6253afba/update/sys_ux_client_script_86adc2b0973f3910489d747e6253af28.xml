@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes>8f0ec3492c5f441781f1f44f36351242</includes>
+        <macroponent display_value="Solicitação de credito - Home default">6b09cae4977ff510489d747e6253af4b</macroponent>
+        <name>Filtro Grupo</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function applyFilter ({ api, event, imports }) {
+	api.setState('parFilters', ({ currentValue }) => {
+		const { payload: { appliedFilters } } = event;
+		return imports['global.mergePARFilters']()(currentValue, appliedFilters);
+	});
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 12:26:20</sys_created_on>
+        <sys_id>86adc2b0973f3910489d747e6253af28</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Filtro Grupo</sys_name>
+        <sys_package display_value="Banco Novo" source="x_1173448_banco_0">dae3100f9723b110489d747e6253afba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banco Novo">dae3100f9723b110489d747e6253afba</sys_scope>
+        <sys_update_name>sys_ux_client_script_86adc2b0973f3910489d747e6253af28</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 12:29:35</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

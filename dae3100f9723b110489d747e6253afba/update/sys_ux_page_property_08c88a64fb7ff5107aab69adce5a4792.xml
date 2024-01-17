@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>A default view for Banco Novo - Solicitação de credito generated</description>
+        <name>view</name>
+        <page display_value="Banco Novo - Solicitação de credito">04c88a64647ff5108e1ff34f8e8e398f</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 17:26:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>08c88a64fb7ff5107aab69adce5a4792</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>view</sys_name>
+        <sys_package display_value="Banco Novo" source="x_1173448_banco_0">dae3100f9723b110489d747e6253afba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banco Novo">dae3100f9723b110489d747e6253afba</sys_scope>
+        <sys_update_name>sys_ux_page_property_08c88a64fb7ff5107aab69adce5a4792</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 17:26:37</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1173448_banco_0.04c88a64647ff5108e1ff34f8e8e398f.root.view</unique_name>
+        <value>Workspace-Banco-Novo---Solicitação-de-credito-0</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=08c88a64fb7ff5107aab69adce5a4792"/>
+</record_update>

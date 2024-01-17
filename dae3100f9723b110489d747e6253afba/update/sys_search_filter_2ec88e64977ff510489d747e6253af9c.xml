@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Credito">e6c88e64977ff510489d747e6253af97</ais_search_source>
+        <label>Credito</label>
+        <name>Credito</name>
+        <order>200</order>
+        <search_context_config display_value="Banco Novo - Solicitação de credito AI Search Conf">80c88a64f77ff51073711576a3db2f90</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 17:26:35</sys_created_on>
+        <sys_id>2ec88e64977ff510489d747e6253af9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Credito</sys_name>
+        <sys_package display_value="Banco Novo" source="x_1173448_banco_0">dae3100f9723b110489d747e6253afba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banco Novo">dae3100f9723b110489d747e6253afba</sys_scope>
+        <sys_update_name>sys_search_filter_2ec88e64977ff510489d747e6253af9c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 17:26:35</sys_updated_on>
+    </sys_search_filter>
+</record_update>

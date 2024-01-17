@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="6e84580f9723b110489d747e6253afa7" extends="task" label="Credito" max_length="40" name="x_1173448_banco_0_credito" type="collection">
+    <element db_object_id="6e84580f9723b110489d747e6253afa7" extends="task" label="Credito" max_length="40" name="x_1173448_banco_0_credito" text_index="true" type="collection">
         <element choice="1" label="Agencia" max_length="40" name="agencia" type="choice">
             <choice>
                 <element inactive_on_update="false" label="São Benedito" sequence="0" value="1"/>

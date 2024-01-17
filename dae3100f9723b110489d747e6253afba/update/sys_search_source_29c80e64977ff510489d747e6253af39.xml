@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1173448_banco_0_credito">active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </condition>
+        <group/>
+        <name>Banco Novo - Solicitação de credito - x_1173448_ba</name>
+        <roles/>
+        <source_table>x_1173448_banco_0_credito</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 17:26:31</sys_created_on>
+        <sys_id>29c80e64977ff510489d747e6253af39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Banco Novo - Solicitação de credito - x_1173448_ba</sys_name>
+        <sys_package display_value="Banco Novo" source="x_1173448_banco_0">dae3100f9723b110489d747e6253afba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banco Novo">dae3100f9723b110489d747e6253afba</sys_scope>
+        <sys_update_name>sys_search_source_29c80e64977ff510489d747e6253af39</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 17:26:31</sys_updated_on>
+    </sys_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=29c80e64977ff510489d747e6253af39"/>
+</record_update>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($scope,spUtil) {
+  /* widget controller */
+  var c = this;
+	
+	$scope.changelink = function() {
+	
+	$scope.page.g_form.setValue('captcha_verification', 'Yes');
+	};
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Recaptcha</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+	data.sitekey = gs.getProperty('recaptcha.site-key');
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-17 21:38:03</sys_created_on>
+        <sys_id>4e31126597f7f910489d747e6253af2a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Recaptcha</sys_name>
+        <sys_package display_value="Banco Novo" source="x_1173448_banco_0">dae3100f9723b110489d747e6253afba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banco Novo">dae3100f9723b110489d747e6253afba</sys_scope>
+        <sys_update_name>sp_widget_4e31126597f7f910489d747e6253af2a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-17 22:49:24</sys_updated_on>
+        <template><![CDATA[<body>
+  
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+  
+  <div class="g-recaptcha" data-callback="captchaCallback" data-sitekey="{{data.sitekey}}"></div>
+  
+  <input type="text" style=" display: none;"id="myText" name="message" ng-model = "c.message" ng-change="changelink()">
+  
+</body>
+
+ <script type="text/javascript"> 
+   
+ function captchaCallback() {
+ 
+   var resp = grecaptcha.getResponse();
+   
+   if(resp){
+   document.getElementById("myText").value = "true";
+     
+   var element = document.getElementById('myText');
+     
+   var event = new Event('change');
+     
+   element.dispatchEvent(event);
+   }
+ }
+   </script>]]></template>
+    </sp_widget>
+</record_update>

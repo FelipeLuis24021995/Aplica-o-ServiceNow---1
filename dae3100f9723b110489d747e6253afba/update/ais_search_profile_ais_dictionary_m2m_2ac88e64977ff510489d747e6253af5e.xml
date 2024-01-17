@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_1173448_banco_0_banco_novo_solicita_o_de_credito_search_profile_default_spell_check_dictionary">6ec88e64977ff510489d747e6253af5b</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="Banco Novo - Solicitação de credito search profile">9cc88a641a7ff510440f183a9fabee94</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 17:26:35</sys_created_on>
+        <sys_id>2ac88e64977ff510489d747e6253af5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1173448_banco_0_banco_novo_solicita_o_de_credito_search_profile_default_spell_check_dictionary.Banco Novo - Solicitação de credito search profile</sys_name>
+        <sys_package display_value="Banco Novo" source="x_1173448_banco_0">dae3100f9723b110489d747e6253afba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banco Novo">dae3100f9723b110489d747e6253afba</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_2ac88e64977ff510489d747e6253af5e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 17:26:35</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>
