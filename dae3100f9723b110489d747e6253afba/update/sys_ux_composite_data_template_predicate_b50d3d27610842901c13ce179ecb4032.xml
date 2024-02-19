@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>due_date,short_description,number,state</field_list>
+        <name>My request - incident predicate</name>
+        <order/>
+        <predicate_bundle display_value="My requests - incident bundle">f50d3d27250842901e371f4b60ae1e34</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-05 10:32:43</sys_created_on>
+        <sys_id>b50d3d27610842901c13ce179ecb4032</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My request - incident predicate</sys_name>
+        <sys_package display_value="Banco Novo" source="x_1173448_banco_0">dae3100f9723b110489d747e6253afba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banco Novo">dae3100f9723b110489d747e6253afba</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_b50d3d27610842901c13ce179ecb4032</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-05 10:32:43</sys_updated_on>
+        <table>incident</table>
+        <ux_template display_value="Item produced template">390d3d27d0084290197b0850602bc333</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

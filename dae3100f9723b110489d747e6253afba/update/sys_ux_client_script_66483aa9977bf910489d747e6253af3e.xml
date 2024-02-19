@@ -4,7 +4,7 @@
         <macroponent display_value="Solicitação de credito - Home default Copy">9648f6a9977bf910489d747e6253afe2</macroponent>
         <name>Filtro Grupo</name>
         <preset/>
-        <required_translations/>
+        <required_translations>[ ]</required_translations>
         <script><![CDATA[function applyFilter ({ api, event, imports }) {
 	api.setState('parFilters', ({ currentValue }) => {
 		const { payload: { appliedFilters } } = event;
@@ -16,14 +16,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-17 23:28:03</sys_created_on>
         <sys_id>66483aa9977bf910489d747e6253af3e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Filtro Grupo</sys_name>
         <sys_package display_value="Banco Novo" source="x_1173448_banco_0">dae3100f9723b110489d747e6253afba</sys_package>
         <sys_policy/>
         <sys_scope display_value="Banco Novo">dae3100f9723b110489d747e6253afba</sys_scope>
         <sys_update_name>sys_ux_client_script_66483aa9977bf910489d747e6253af3e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-17 23:28:03</sys_updated_on>
+        <sys_updated_on>2024-01-18 00:14:33</sys_updated_on>
         <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>

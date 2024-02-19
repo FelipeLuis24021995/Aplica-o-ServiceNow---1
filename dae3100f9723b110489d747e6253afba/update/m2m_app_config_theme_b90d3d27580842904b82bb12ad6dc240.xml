@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability display_value="Public">b10d3d27ab084290d59ba7b7fec53140</applicability>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-05 10:32:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b90d3d27580842904b82bb12ad6dc240</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Banco Novo" source="x_1173448_banco_0">dae3100f9723b110489d747e6253afba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banco Novo">dae3100f9723b110489d747e6253afba</sys_scope>
+        <sys_update_name>m2m_app_config_theme_b90d3d27580842904b82bb12ad6dc240</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-05 10:32:42</sys_updated_on>
+        <theme display_value="Light Theme">350d3d2762084290e20e7eafcf5c0740</theme>
+        <ux_app_configuration display_value="Banco Novo Config">310d3d2797084290489d747e6253af12</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

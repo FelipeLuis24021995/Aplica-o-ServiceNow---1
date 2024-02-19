@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="fd0d3d27f1084290cdd4141d2704ce3b" sys_domain="global" table="sys_user" version="3" view="custom_portal_settings_x_1173448_banco_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_zone</element>
+            <position>0</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-02-05 10:32:44</sys_created_on>
+            <sys_id>350d3d2715084290dafe8658536f0c3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="b10d3d27d90842908685b936a9df9b3c">fd0d3d27f1084290cdd4141d2704ce3b</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2024-02-05 10:32:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-02-05 10:32:44</sys_created_on>
+            <sys_id>b50d3d27c4084290e152688cdd0c513c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="b10d3d27d90842908685b936a9df9b3c">fd0d3d27f1084290cdd4141d2704ce3b</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2024-02-05 10:32:44</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>preferred_language</element>
+            <position>2</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-02-05 10:32:44</sys_created_on>
+            <sys_id>310d3d2794084290f8c57f7ba041b83c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="b10d3d27d90842908685b936a9df9b3c">fd0d3d27f1084290cdd4141d2704ce3b</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2024-02-05 10:32:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sys_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-02-05 10:32:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fd0d3d27f1084290cdd4141d2704ce3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_user</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Banco Novo" source="x_1173448_banco_0">dae3100f9723b110489d747e6253afba</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Banco Novo">dae3100f9723b110489d747e6253afba</sys_scope>
+            <sys_update_name>sys_ui_section_fd0d3d27f1084290cdd4141d2704ce3b</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2024-02-05 10:32:44</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Custom portal settings (x_1173448_banco_0)" name="custom_portal_settings_x_1173448_banco_0">b10d3d27d90842908685b936a9df9b3c</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

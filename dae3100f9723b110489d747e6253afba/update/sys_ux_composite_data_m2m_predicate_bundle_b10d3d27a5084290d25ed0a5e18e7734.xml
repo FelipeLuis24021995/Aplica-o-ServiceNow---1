@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - My Requests Dataset">790d3d27550842901c187787a5b0a835</dataset>
+        <order/>
+        <predicate_bundle display_value="My requests - reqested item bundle">b50d3d27e3084290273963ec7736a334</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-05 10:32:43</sys_created_on>
+        <sys_id>b10d3d27a5084290d25ed0a5e18e7734</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Banco Novo" source="x_1173448_banco_0">dae3100f9723b110489d747e6253afba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banco Novo">dae3100f9723b110489d747e6253afba</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_b10d3d27a5084290d25ed0a5e18e7734</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-05 10:32:43</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>

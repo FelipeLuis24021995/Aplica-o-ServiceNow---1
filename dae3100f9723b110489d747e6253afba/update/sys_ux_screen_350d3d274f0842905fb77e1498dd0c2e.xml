@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Banco Novo Config">310d3d2797084290489d747e6253af12</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Additional details">f90d3d273a084290334f4c5948196d30</macroponent>
+        <macroponent_config>{
+  "sysId" : "@context.props.sysId",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "none",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>Additional details Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record Page(request)">710d3d2789084290c22959bb78d10f3a</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Additional details">750d3d27750842905173d051a5bd9139</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-05 10:32:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>350d3d274f0842905fb77e1498dd0c2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Additional details Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Banco Novo" source="x_1173448_banco_0">dae3100f9723b110489d747e6253afba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banco Novo">dae3100f9723b110489d747e6253afba</sys_scope>
+        <sys_update_name>sys_ux_screen_350d3d274f0842905fb77e1498dd0c2e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-05 10:32:43</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=350d3d274f0842905fb77e1498dd0c2e"/>
+</record_update>

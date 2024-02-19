@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Banco Novo Config">310d3d2797084290489d747e6253af12</app_config>
+        <description/>
+        <extension_point/>
+        <fields>searchContextConfigId</fields>
+        <icon/>
+        <name>Search Page</name>
+        <optional_parameters>searchTerm</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>search</route_type>
+        <screen_type display_value="Search Page">f10d3d278a084290baed5a98a174ba39</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-05 10:32:43</sys_created_on>
+        <sys_id>fd0d3d2740084290c7454e531d542938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search Page</sys_name>
+        <sys_package display_value="Banco Novo" source="x_1173448_banco_0">dae3100f9723b110489d747e6253afba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banco Novo">dae3100f9723b110489d747e6253afba</sys_scope>
+        <sys_update_name>sys_ux_app_route_fd0d3d2740084290c7454e531d542938</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-05 10:32:43</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=fd0d3d2740084290c7454e531d542938"/>
+</record_update>

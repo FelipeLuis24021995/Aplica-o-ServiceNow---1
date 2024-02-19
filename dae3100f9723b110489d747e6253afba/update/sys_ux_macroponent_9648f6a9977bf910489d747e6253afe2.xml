@@ -489,44 +489,7 @@
           "value" : true
         }
       },
-      "eventMappings" : [ {
-        "eventMappingId" : "clrezfmhhiiaaffgiddffhhwpyyieebgw",
-        "isConfiguration" : false,
-        "offRowStorageId" : null,
-        "sourceEventApiName" : "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
-        "sourceEventCorrelationId" : null,
-        "sourceEventDefinition" : {
-          "apiName" : "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
-          "id" : null,
-          "type" : "UXEVENT"
-        },
-        "sourceEventSysId" : null,
-        "targets" : [ {
-          "broker" : null,
-          "clientScript" : null,
-          "conditional" : null,
-          "declarativeAction" : null,
-          "event" : {
-            "apiName" : "x_1173448_banco_0.MODAL_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
-            "payload" : {
-              "type" : "JSON_LITERAL",
-              "value" : {
-                "modalId" : "[component-id$='custom_1']",
-                "showModal" : true,
-                "displayOptions" : null,
-                "bare" : true,
-                "viewportElementId" : null,
-                "viewportRoute" : null,
-                "viewportFields" : null
-              }
-            },
-            "sysId" : "a911e634977f3910489d747e6253af2d"
-          },
-          "operation" : null,
-          "targetId" : "clrezfmhhiiaaffgjddffhhwrccffmmeejh",
-          "type" : "EVENT"
-        } ]
-      } ],
+      "eventMappings" : [ ],
       "slot" : null,
       "definition" : {
         "id" : "d24d53f60350de7a652caf3188a46ed2",
@@ -877,90 +840,7 @@
           "value" : true
         }
       },
-      "eventMappings" : [ {
-        "eventMappingId" : "clrgbflfdaaggnuddffhhwssnwddwyv",
-        "isConfiguration" : false,
-        "offRowStorageId" : null,
-        "sourceEventApiName" : "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
-        "sourceEventCorrelationId" : null,
-        "sourceEventDefinition" : {
-          "apiName" : "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
-          "id" : null,
-          "type" : "UXEVENT"
-        },
-        "sourceEventSysId" : null,
-        "targets" : [ {
-          "broker" : null,
-          "clientScript" : null,
-          "conditional" : null,
-          "declarativeAction" : null,
-          "event" : {
-            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
-            "payload" : {
-              "type" : "MAP_CONTAINER",
-              "container" : {
-                "route" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "simplelist"
-                },
-                "fields" : {
-                  "type" : "MAP_CONTAINER",
-                  "container" : {
-                    "table" : {
-                      "type" : "EVENT_PAYLOAD_BINDING",
-                      "binding" : {
-                        "address" : [ "params", "table" ]
-                      }
-                    }
-                  }
-                },
-                "params" : {
-                  "type" : "MAP_CONTAINER",
-                  "container" : {
-                    "listTitle" : {
-                      "type" : "EVENT_PAYLOAD_BINDING",
-                      "binding" : {
-                        "address" : [ "title" ]
-                      }
-                    },
-                    "query" : {
-                      "type" : "EVENT_PAYLOAD_BINDING",
-                      "binding" : {
-                        "address" : [ "params", "query" ]
-                      }
-                    }
-                  }
-                },
-                "redirect" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "passiveNavigation" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "title" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "multiInstField" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "targetRoute" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "external" : null
-              }
-            },
-            "sysId" : "c305d38597bf7910489d747e6253aff5"
-          },
-          "operation" : null,
-          "targetId" : "clrgbflfdaaggnvddffhhwaqddggaakkk",
-          "type" : "EVENT"
-        } ]
-      } ],
+      "eventMappings" : [ ],
       "slot" : null,
       "definition" : {
         "id" : "d24d53f60350de7a652caf3188a46ed2",
@@ -1507,7 +1387,7 @@
           "conditional" : null,
           "declarativeAction" : null,
           "event" : {
-            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
+            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_9648f6a9977bf910489d747e6253afe2",
             "payload" : {
               "type" : "MAP_CONTAINER",
               "container" : {
@@ -1566,7 +1446,7 @@
                 "external" : null
               }
             },
-            "sysId" : "c305d38597bf7910489d747e6253aff5"
+            "sysId" : "7ae2036597bbf910489d747e6253afb9"
           },
           "operation" : null,
           "targetId" : "clrgdxbqoaafdpddffhhwgtxffevik",
@@ -1941,7 +1821,7 @@
           "conditional" : null,
           "declarativeAction" : null,
           "event" : {
-            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
+            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_9648f6a9977bf910489d747e6253afe2",
             "payload" : {
               "type" : "MAP_CONTAINER",
               "container" : {
@@ -2000,7 +1880,7 @@
                 "external" : null
               }
             },
-            "sysId" : "c305d38597bf7910489d747e6253aff5"
+            "sysId" : "7ae2036597bbf910489d747e6253afb9"
           },
           "operation" : null,
           "targetId" : "clrgdyeeivaafebbddffhhwaaggbsjjpcq",
@@ -2442,7 +2322,7 @@
           "conditional" : null,
           "declarativeAction" : null,
           "event" : {
-            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
+            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_9648f6a9977bf910489d747e6253afe2",
             "payload" : {
               "type" : "MAP_CONTAINER",
               "container" : {
@@ -2501,7 +2381,7 @@
                 "external" : null
               }
             },
-            "sysId" : "c305d38597bf7910489d747e6253aff5"
+            "sysId" : "7ae2036597bbf910489d747e6253afb9"
           },
           "operation" : null,
           "targetId" : "clrgdzccjjjaafedddffhhwhhagcddaabd",
@@ -3053,7 +2933,7 @@
           "conditional" : null,
           "declarativeAction" : null,
           "event" : {
-            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
+            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_9648f6a9977bf910489d747e6253afe2",
             "payload" : {
               "type" : "MAP_CONTAINER",
               "container" : {
@@ -3112,7 +2992,7 @@
                 "external" : null
               }
             },
-            "sysId" : "c305d38597bf7910489d747e6253aff5"
+            "sysId" : "7ae2036597bbf910489d747e6253afb9"
           },
           "operation" : null,
           "targetId" : "clrgeaarjaaaaffbbddffhhwjjffijjhhxgr",
@@ -3487,7 +3367,7 @@
           "conditional" : null,
           "declarativeAction" : null,
           "event" : {
-            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
+            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_9648f6a9977bf910489d747e6253afe2",
             "payload" : {
               "type" : "MAP_CONTAINER",
               "container" : {
@@ -3546,7 +3426,7 @@
                 "external" : null
               }
             },
-            "sysId" : "c305d38597bf7910489d747e6253aff5"
+            "sysId" : "7ae2036597bbf910489d747e6253afb9"
           },
           "operation" : null,
           "targetId" : "clrgebbhsddaaffdddffhhwjddibbbzbw",
@@ -3921,7 +3801,7 @@
           "conditional" : null,
           "declarativeAction" : null,
           "event" : {
-            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
+            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_9648f6a9977bf910489d747e6253afe2",
             "payload" : {
               "type" : "MAP_CONTAINER",
               "container" : {
@@ -3980,7 +3860,7 @@
                 "external" : null
               }
             },
-            "sysId" : "c305d38597bf7910489d747e6253aff5"
+            "sysId" : "7ae2036597bbf910489d747e6253afb9"
           },
           "operation" : null,
           "targetId" : "clrgecchfmaaffpddffhhwithhcciiddbbhh",
@@ -4386,7 +4266,7 @@
           "conditional" : null,
           "declarativeAction" : null,
           "event" : {
-            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
+            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_9648f6a9977bf910489d747e6253afe2",
             "payload" : {
               "type" : "MAP_CONTAINER",
               "container" : {
@@ -4445,7 +4325,7 @@
                 "external" : null
               }
             },
-            "sysId" : "c305d38597bf7910489d747e6253aff5"
+            "sysId" : "7ae2036597bbf910489d747e6253afb9"
           },
           "operation" : null,
           "targetId" : "clrgeaaaafffaafepddffhhwncchmljjff",
@@ -4997,7 +4877,7 @@
           "conditional" : null,
           "declarativeAction" : null,
           "event" : {
-            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
+            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_9648f6a9977bf910489d747e6253afe2",
             "payload" : {
               "type" : "MAP_CONTAINER",
               "container" : {
@@ -5056,7 +4936,7 @@
                 "external" : null
               }
             },
-            "sysId" : "c305d38597bf7910489d747e6253aff5"
+            "sysId" : "7ae2036597bbf910489d747e6253afb9"
           },
           "operation" : null,
           "targetId" : "clrgctddaaeaaffeddffhhwiiiiddctccyk",
@@ -5431,7 +5311,7 @@
           "conditional" : null,
           "declarativeAction" : null,
           "event" : {
-            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
+            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_9648f6a9977bf910489d747e6253afe2",
             "payload" : {
               "type" : "MAP_CONTAINER",
               "container" : {
@@ -5490,7 +5370,7 @@
                 "external" : null
               }
             },
-            "sysId" : "c305d38597bf7910489d747e6253aff5"
+            "sysId" : "7ae2036597bbf910489d747e6253afb9"
           },
           "operation" : null,
           "targetId" : "clrgcwupoaaffsddffhhwtnaaeesbbbt",
@@ -5865,7 +5745,7 @@
           "conditional" : null,
           "declarativeAction" : null,
           "event" : {
-            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
+            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_9648f6a9977bf910489d747e6253afe2",
             "payload" : {
               "type" : "MAP_CONTAINER",
               "container" : {
@@ -5924,7 +5804,7 @@
                 "external" : null
               }
             },
-            "sysId" : "c305d38597bf7910489d747e6253aff5"
+            "sysId" : "7ae2036597bbf910489d747e6253afb9"
           },
           "operation" : null,
           "targetId" : "clrgczeesxaafgffddffhhwcakonyaajj",
@@ -6365,7 +6245,7 @@
           "conditional" : null,
           "declarativeAction" : null,
           "event" : {
-            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
+            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_9648f6a9977bf910489d747e6253afe2",
             "payload" : {
               "type" : "MAP_CONTAINER",
               "container" : {
@@ -6424,7 +6304,7 @@
                 "external" : null
               }
             },
-            "sysId" : "c305d38597bf7910489d747e6253aff5"
+            "sysId" : "7ae2036597bbf910489d747e6253afb9"
           },
           "operation" : null,
           "targetId" : "clrgdaaeubaafghddffhhwiyenwtbc",
@@ -6799,7 +6679,7 @@
           "conditional" : null,
           "declarativeAction" : null,
           "event" : {
-            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
+            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_9648f6a9977bf910489d747e6253afe2",
             "payload" : {
               "type" : "MAP_CONTAINER",
               "container" : {
@@ -6858,7 +6738,7 @@
                 "external" : null
               }
             },
-            "sysId" : "c305d38597bf7910489d747e6253aff5"
+            "sysId" : "7ae2036597bbf910489d747e6253afb9"
           },
           "operation" : null,
           "targetId" : "clrgdbbcroaafgtddffhhwjjohhrktxt",
@@ -7233,7 +7113,7 @@
           "conditional" : null,
           "declarativeAction" : null,
           "event" : {
-            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
+            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_9648f6a9977bf910489d747e6253afe2",
             "payload" : {
               "type" : "JSON_LITERAL",
               "value" : {
@@ -7248,7 +7128,7 @@
                 "external" : null
               }
             },
-            "sysId" : "c305d38597bf7910489d747e6253aff5"
+            "sysId" : "7ae2036597bbf910489d747e6253afb9"
           },
           "operation" : null,
           "targetId" : "clrgdcciijjggaafhffddffhhwcggzaaqdwr",
@@ -7725,7 +7605,7 @@
           "conditional" : null,
           "declarativeAction" : null,
           "event" : {
-            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
+            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_9648f6a9977bf910489d747e6253afe2",
             "payload" : {
               "type" : "MAP_CONTAINER",
               "container" : {
@@ -7784,7 +7664,7 @@
                 "external" : null
               }
             },
-            "sysId" : "c305d38597bf7910489d747e6253aff5"
+            "sysId" : "7ae2036597bbf910489d747e6253afb9"
           },
           "operation" : null,
           "targetId" : "clrgdddeesddaafhfddffhhwffiilmgnxbb",
@@ -8336,7 +8216,7 @@
           "conditional" : null,
           "declarativeAction" : null,
           "event" : {
-            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
+            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_9648f6a9977bf910489d747e6253afe2",
             "payload" : {
               "type" : "MAP_CONTAINER",
               "container" : {
@@ -8395,7 +8275,7 @@
                 "external" : null
               }
             },
-            "sysId" : "c305d38597bf7910489d747e6253aff5"
+            "sysId" : "7ae2036597bbf910489d747e6253afb9"
           },
           "operation" : null,
           "targetId" : "clrgeeedajaafgdddffhhwffbbhhaaafkp",
@@ -8770,7 +8650,7 @@
           "conditional" : null,
           "declarativeAction" : null,
           "event" : {
-            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
+            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_9648f6a9977bf910489d747e6253afe2",
             "payload" : {
               "type" : "MAP_CONTAINER",
               "container" : {
@@ -8829,7 +8709,7 @@
                 "external" : null
               }
             },
-            "sysId" : "c305d38597bf7910489d747e6253aff5"
+            "sysId" : "7ae2036597bbf910489d747e6253afb9"
           },
           "operation" : null,
           "targetId" : "clrgeffiduaafgrddffhhwbcceiibbccffm",
@@ -9204,7 +9084,7 @@
           "conditional" : null,
           "declarativeAction" : null,
           "event" : {
-            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
+            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_9648f6a9977bf910489d747e6253afe2",
             "payload" : {
               "type" : "MAP_CONTAINER",
               "container" : {
@@ -9263,7 +9143,7 @@
                 "external" : null
               }
             },
-            "sysId" : "c305d38597bf7910489d747e6253aff5"
+            "sysId" : "7ae2036597bbf910489d747e6253afb9"
           },
           "operation" : null,
           "targetId" : "clrgeggznhhaafheeddffhhwhhhhhbbfhhal",
@@ -9638,7 +9518,7 @@
           "conditional" : null,
           "declarativeAction" : null,
           "event" : {
-            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
+            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_9648f6a9977bf910489d747e6253afe2",
             "payload" : {
               "type" : "MAP_CONTAINER",
               "container" : {
@@ -9697,7 +9577,7 @@
                 "external" : null
               }
             },
-            "sysId" : "c305d38597bf7910489d747e6253aff5"
+            "sysId" : "7ae2036597bbf910489d747e6253afb9"
           },
           "operation" : null,
           "targetId" : "clrgehhqjjtaafhgddffhhwkjjmccdxyf",
@@ -10158,83 +10038,7 @@
           "value" : false
         }
       },
-      "eventMappings" : [ {
-        "eventMappingId" : "clrgcbpkccaaggmfddffhhwjeewiwsnj",
-        "isConfiguration" : false,
-        "offRowStorageId" : null,
-        "sourceEventApiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
-        "sourceEventCorrelationId" : null,
-        "sourceEventDefinition" : {
-          "apiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
-          "id" : null,
-          "type" : "UXEVENT"
-        },
-        "sourceEventSysId" : null,
-        "targets" : [ {
-          "broker" : null,
-          "clientScript" : null,
-          "conditional" : null,
-          "declarativeAction" : null,
-          "event" : {
-            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
-            "payload" : {
-              "type" : "MAP_CONTAINER",
-              "container" : {
-                "route" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "record"
-                },
-                "fields" : {
-                  "type" : "MAP_CONTAINER",
-                  "container" : {
-                    "table" : {
-                      "type" : "EVENT_PAYLOAD_BINDING",
-                      "binding" : {
-                        "address" : [ "table" ]
-                      }
-                    },
-                    "sysId" : {
-                      "type" : "EVENT_PAYLOAD_BINDING",
-                      "binding" : {
-                        "address" : [ "sys_id" ]
-                      }
-                    }
-                  }
-                },
-                "params" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "redirect" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "passiveNavigation" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "title" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "multiInstField" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "targetRoute" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "external" : null
-              }
-            },
-            "sysId" : "c305d38597bf7910489d747e6253aff5"
-          },
-          "operation" : null,
-          "targetId" : "clrgcbpkddaaggmgddffhhwwkaaliajjn",
-          "type" : "EVENT"
-        } ]
-      } ],
+      "eventMappings" : [ ],
       "slot" : "",
       "definition" : {
         "id" : "2b1c080881e05dc63b917044290b233f",
@@ -11050,7 +10854,7 @@
           "conditional" : null,
           "declarativeAction" : null,
           "event" : {
-            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
+            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_9648f6a9977bf910489d747e6253afe2",
             "payload" : {
               "type" : "MAP_CONTAINER",
               "container" : {
@@ -11109,7 +10913,7 @@
                 "external" : null
               }
             },
-            "sysId" : "c305d38597bf7910489d747e6253aff5"
+            "sysId" : "7ae2036597bbf910489d747e6253afb9"
           },
           "operation" : null,
           "targetId" : "clrgduhhqtaafcpddffhhwxhnffqkeen",
@@ -11484,7 +11288,7 @@
           "conditional" : null,
           "declarativeAction" : null,
           "event" : {
-            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
+            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_9648f6a9977bf910489d747e6253afe2",
             "payload" : {
               "type" : "MAP_CONTAINER",
               "container" : {
@@ -11543,7 +11347,7 @@
                 "external" : null
               }
             },
-            "sysId" : "c305d38597bf7910489d747e6253aff5"
+            "sysId" : "7ae2036597bbf910489d747e6253afb9"
           },
           "operation" : null,
           "targetId" : "clrgdwgxddaafddddffhhwvfotyjjaadd",
@@ -11987,7 +11791,7 @@
           "conditional" : null,
           "declarativeAction" : null,
           "event" : {
-            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
+            "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_9648f6a9977bf910489d747e6253afe2",
             "payload" : {
               "type" : "MAP_CONTAINER",
               "container" : {
@@ -12046,7 +11850,7 @@
                 "external" : null
               }
             },
-            "sysId" : "c305d38597bf7910489d747e6253aff5"
+            "sysId" : "7ae2036597bbf910489d747e6253afb9"
           },
           "operation" : null,
           "targetId" : "clrgdvkdhhaafdbbddffhhwqpgqccqvt",
@@ -13739,7 +13543,7 @@
               "conditional" : null,
               "declarativeAction" : null,
               "event" : {
-                "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
+                "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_9648f6a9977bf910489d747e6253afe2",
                 "payload" : {
                   "type" : "MAP_CONTAINER",
                   "container" : {
@@ -13778,7 +13582,7 @@
                     "external" : null
                   }
                 },
-                "sysId" : "c305d38597bf7910489d747e6253aff5"
+                "sysId" : "7ae2036597bbf910489d747e6253afb9"
               },
               "operation" : null,
               "targetId" : "clrgcqeiijjaafeqddffhhwsddeeehpeey",
@@ -13802,7 +13606,7 @@
               "conditional" : null,
               "declarativeAction" : null,
               "event" : {
-                "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_6b09cae4977ff510489d747e6253af4b",
+                "apiName" : "x_1173448_banco_0.NAV_ITEM_SELECTED_RELAY_9648f6a9977bf910489d747e6253afe2",
                 "payload" : {
                   "type" : "MAP_CONTAINER",
                   "container" : {
@@ -13854,7 +13658,7 @@
                     "external" : null
                   }
                 },
-                "sysId" : "c305d38597bf7910489d747e6253aff5"
+                "sysId" : "7ae2036597bbf910489d747e6253afb9"
               },
               "operation" : null,
               "targetId" : "clrgcphfcaafefddffhhwajjjcbukt",
@@ -13932,7 +13736,7 @@
         <da_relay_models/>
         <data>[ ]</data>
         <description/>
-        <dispatched_events>c305d38597bf7910489d747e6253aff5,a911e634977f3910489d747e6253af2d</dispatched_events>
+        <dispatched_events>7ae2036597bbf910489d747e6253afb9,c305d38597bf7910489d747e6253aff5,a911e634977f3910489d747e6253af2d</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
@@ -14110,14 +13914,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-17 23:28:01</sys_created_on>
         <sys_id>9648f6a9977bf910489d747e6253afe2</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Solicitação de credito - Home default Copy</sys_name>
         <sys_package display_value="Banco Novo" source="x_1173448_banco_0">dae3100f9723b110489d747e6253afba</sys_package>
         <sys_policy/>
         <sys_scope display_value="Banco Novo">dae3100f9723b110489d747e6253afba</sys_scope>
         <sys_update_name>sys_ux_macroponent_9648f6a9977bf910489d747e6253afe2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-17 23:30:35</sys_updated_on>
+        <sys_updated_on>2024-01-18 00:14:34</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=9648f6a9977bf910489d747e6253afe2"/>
 </record_update>

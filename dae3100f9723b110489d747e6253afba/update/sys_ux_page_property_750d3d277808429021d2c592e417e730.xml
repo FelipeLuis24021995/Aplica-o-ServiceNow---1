@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>enable_login_modal</name>
+        <page display_value="Banco Novo">b90d3d271d08429044aad3c50fca6c2d</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-05 10:32:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>750d3d277808429021d2c592e417e730</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>enable_login_modal</sys_name>
+        <sys_package display_value="Banco Novo" source="x_1173448_banco_0">dae3100f9723b110489d747e6253afba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banco Novo">dae3100f9723b110489d747e6253afba</sys_scope>
+        <sys_update_name>sys_ux_page_property_750d3d277808429021d2c592e417e730</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-05 10:32:42</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1173448_banco_0.b90d3d271d08429044aad3c50fca6c2d.root.enable_login_modal</unique_name>
+        <value>{&#13;
+	"enabled":false&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=750d3d277808429021d2c592e417e730"/>
+</record_update>

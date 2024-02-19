@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping">
+    <sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE">
+        <action_payload_definition display_value="Approve">310d3d2784084290712e6539818ed240</action_payload_definition>
+        <label>Approve Evam</label>
+        <model display_value="Evam">035d270073151010c342d5fdbdf6a715</model>
+        <payload_map>table={{table}}^sysId={{sys_id}}^EQ</payload_map>
+        <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-05 10:32:42</sys_created_on>
+        <sys_id>b90d3d27140842904cfe1ce37cf6d73f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approve Evam</sys_name>
+        <sys_package display_value="Banco Novo" source="x_1173448_banco_0">dae3100f9723b110489d747e6253afba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banco Novo">dae3100f9723b110489d747e6253afba</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_mapping_b90d3d27140842904cfe1ce37cf6d73f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-05 10:32:42</sys_updated_on>
+    </sys_declarative_action_payload_mapping>
+</record_update>

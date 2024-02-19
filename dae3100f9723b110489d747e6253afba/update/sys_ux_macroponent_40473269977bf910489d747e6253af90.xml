@@ -7,6 +7,10 @@
   "elementId" : "modalContainerViewport",
   "elementLabel" : "Modal Container (Viewport)",
   "propertyValues" : {
+    "labelledby" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
     "size" : {
       "type" : "JSON_LITERAL",
       "value" : "md"
@@ -77,13 +81,117 @@
   },
   "isHero" : false,
   "extensionPoints" : [ {
-    "controllerElementId" : "rpCtrl",
+    "controllerElementId" : "",
     "name" : "Record page modals",
     "sysId" : "e38960c1c30301103581a5a1d840dd45"
   } ],
   "isNonDestructive" : false,
   "items" : [ ],
   "styles" : { }
+}, {
+  "elementId" : "container_1",
+  "elementLabel" : "Container 1",
+  "propertyValues" : {
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "hideEmptyStateUi" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "stylized_text_1",
+      "elementLabel" : "Stylized text 1",
+      "propertyValues" : {
+        "text" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Você não tem autorização para acessar essa pagina!",
+            "comment" : ""
+          }
+        },
+        "tag" : {
+          "type" : "JSON_LITERAL",
+          "value" : "h1"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "preset" : {
+        "controllerElementId" : "record",
+        "disabledEventTargetIds" : [ ],
+        "id" : "9586ab8504f82b150ece43f8152c4f25"
+      },
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"stylized_text_1","styles":{"padding":"var(--now-static-space--3xl)"}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : {
+    "width" : "100%"
+  }
 } ]</composition>
         <da_relay_models/>
         <data>[ {
@@ -110,10 +218,11 @@
         "category" : "props"
       }
     },
-    "formParams" : {
-      "type" : "DATA_OUTPUT_BINDING",
+    "inputQuery" : {
+      "type" : "CONTEXT_BINDING",
       "binding" : {
-        "address" : [ "rpCtrl", "extraParamsProp" ]
+        "address" : [ "query" ],
+        "category" : "props"
       }
     },
     "view" : {
@@ -127,17 +236,6 @@
       "type" : "JSON_LITERAL",
       "value" : ""
     },
-    "inputQuery" : {
-      "type" : "CONTEXT_BINDING",
-      "binding" : {
-        "address" : [ "query" ],
-        "category" : "props"
-      }
-    },
-    "showActivityStreamInDetails" : {
-      "type" : "JSON_LITERAL",
-      "value" : true
-    },
     "detailsContext" : {
       "type" : "CONTEXT_BINDING",
       "binding" : {
@@ -145,40 +243,9 @@
         "category" : "props"
       }
     },
-    "actionConfigId" : {
-      "type" : "CONTEXT_BINDING",
-      "binding" : {
-        "address" : [ "actionConfigId" ],
-        "category" : "app"
-      }
-    },
-    "headerConfigId" : {
-      "type" : "CONTEXT_BINDING",
-      "binding" : {
-        "address" : [ "headerConfigId" ],
-        "category" : "app"
-      }
-    },
-    "ribbonConfigId" : {
-      "type" : "CONTEXT_BINDING",
-      "binding" : {
-        "address" : [ "ribbonConfigId" ],
-        "category" : "app"
-      }
-    },
-    "viewRuleConfigId" : {
-      "type" : "CONTEXT_BINDING",
-      "binding" : {
-        "address" : [ "viewRuleConfigId" ],
-        "category" : "app"
-      }
-    },
-    "highlightedValueConfigId" : {
-      "type" : "CONTEXT_BINDING",
-      "binding" : {
-        "address" : [ "highlightedValueConfigId" ],
-        "category" : "app"
-      }
+    "inputExtraParams" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
     }
   },
   "readEvaluationMode" : "EAGER"
@@ -315,7 +382,7 @@
   "default" : {
     "children" : null,
     "isInline" : null,
-    "items" : [],
+    "items" : [{"element_id":"container_1","styles":{}}],
     "root" : null,
     "rules" : null,
     "styles" : {"flex-direction":"column"},
@@ -466,7 +533,10 @@
   "selectable" : false,
   "disabled" : false
 } ]</props>
-        <required_translations>[ ]</required_translations>
+        <required_translations>[ {
+  "message" : "Você não tem autorização para acessar essa pagina!",
+  "comment" : ""
+} ]</required_translations>
         <root_component/>
         <root_component_config>{ }</root_component_config>
         <root_component_definition/>
@@ -476,14 +546,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-17 23:23:30</sys_created_on>
         <sys_id>40473269977bf910489d747e6253af90</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Home com Bloqueio de acesso</sys_name>
         <sys_package display_value="Banco Novo" source="x_1173448_banco_0">dae3100f9723b110489d747e6253afba</sys_package>
         <sys_policy/>
         <sys_scope display_value="Banco Novo">dae3100f9723b110489d747e6253afba</sys_scope>
         <sys_update_name>sys_ux_macroponent_40473269977bf910489d747e6253af90</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-17 23:30:33</sys_updated_on>
+        <sys_updated_on>2024-01-18 00:03:09</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=40473269977bf910489d747e6253af90"/>
 </record_update>
